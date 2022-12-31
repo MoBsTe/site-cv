@@ -879,7 +879,7 @@ span {
   display: flex;
   justify-content: space-evenly;
   width: 970px;
-  height: 600px;
+  /* height: 600px; */
   background-color: rgb(77, 75, 75);
   border-radius: 29px;
 }
@@ -941,8 +941,8 @@ span {
 
 @media (max-width: 1024px) {
   .pimg {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
 }
 
