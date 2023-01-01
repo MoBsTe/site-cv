@@ -602,8 +602,7 @@ body {
     position: relative;
     width: 496px;
     // height: 741px;
-    background-color: #333;
-    border-radius: 14px;
+
 
     @media (max-width:360px) {
         width: 100%;
@@ -638,10 +637,14 @@ body {
 
 .about-text {
     font-size: 20px;
+    background-color: #333;
+    border-radius: 14px;
     line-height: 23px;
     letter-spacing: 1px;
     padding: 63px;
     color: #fff;
+    position: relative;
+    z-index: 2;
 
     @media (max-width:360px) {
         display: flex;
