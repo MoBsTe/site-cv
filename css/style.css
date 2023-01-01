@@ -615,10 +615,9 @@ body {
 }
 
 .about-me-div {
-  position: relative;
   width: 496px;
-  background-color: #333;
-  border-radius: 14px;
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 360px) {
@@ -652,10 +651,14 @@ body {
 
 .about-text {
   font-size: 20px;
+  background-color: #333;
+  border-radius: 14px;
   line-height: 23px;
   letter-spacing: 1px;
   padding: 63px;
   color: #fff;
+  z-index: 2;
+  position: relative;
 }
 
 @media (max-width: 360px) {
@@ -879,7 +882,7 @@ span {
   display: flex;
   justify-content: space-evenly;
   width: 970px;
-  /* height: 600px; */
+  height: 600px;
   background-color: rgb(77, 75, 75);
   border-radius: 29px;
 }
