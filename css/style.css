@@ -620,9 +620,9 @@ body {
   z-index: 2;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .about-me-div {
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -632,9 +632,9 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 360px) {
   .about-me-div {
-    width: 70%;
+    width: 100%;
   }
 }
 
