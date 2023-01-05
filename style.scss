@@ -33,7 +33,7 @@ body {
     padding-top: 40px;
     display: grid;
     grid-template-columns: 1fr 3fr 10fr;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 
     @media (max-width: 360px) {
         display: flex;
@@ -435,6 +435,16 @@ body {
     // transition: color 2s linear;
 }
 
+
+
+.skills-div:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #f0b00f;
+    cursor: pointer;
+}
+
 // .skills-div:hover {
 //     padding: 35px;
 //     color: #af7e02;
@@ -497,6 +507,14 @@ body {
     margin-bottom: 20px;
     border-radius: 30px;
     position: relative;
+}
+
+.epi:hover {
+    -webkit-transform: scale(1.12);
+    -ms-transform: scale(1.12);
+    transform: scale(1.12);
+    box-shadow: 0 0 10px rgb(90, 89, 89);
+    cursor: pointer;
 }
 
 .epi1 {
