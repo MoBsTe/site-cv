@@ -321,6 +321,51 @@ body {
   align-items: center;
 }
 
+.header-img {
+  opacity: 0;
+  -webkit-animation: img 5s 1 linear;
+          animation: img 5s 1 linear;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes img {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes img {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header-skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skills-div {
+  display: flex;
+  padding: 30px;
+  background-color: #E2A100;
+  border-radius: 50%;
+}
+
 .main {
   width: 100%;
   margin-top: 181px;

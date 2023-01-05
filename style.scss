@@ -384,13 +384,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 .header-imgs {
     display: flex;
     justify-content: flex-end;
@@ -398,110 +391,54 @@ body {
 }
 
 
+.header-img {
+    opacity: 0;
+    animation: img 5s 1 linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 
-// @media (max-width:360px) {
-//     .header-imgs {
-//         display: none;
-//     }
+    @keyframes img {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+}
+
+
+
+
+
+
+.header-skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.skills-div {
+    display: flex;
+
+    padding: 30px;
+    background-color: #E2A100;
+    border-radius: 50%;
+    // transition: color 2s linear;
+}
+
+// .skills-div:hover {
+//     padding: 35px;
+//     color: #af7e02;
 // }
-
-// @media (max-width:480px) {
-//     .header-imgs {
-//         display: none;
-//     }
-// }
-
-
-// @media (max-width:1024px) {
-//     .header-imgs {
-//         display: none;
-//     }
-// }
-
-// .header-piple {
-//     position: absolute;
-//     top: 0px;
-//     left: 0px;
-//     z-index: 2;
-// }
-
-// .header-img {
-//     width: 456px;
-//     height: 633px;
-
-// }
-
-// .head {
-//     position: absolute;
-//     top: 128px;
-//     left: 1065px;
-//     z-index: 2;
-// }
-
-// .ellipse {
-//     position: absolute;
-//     top: 58px;
-//     left: 852px;
-//     z-index: 1;
-// }
-
-// .ellipse1 {
-//     position: absolute;
-//     top: 212px;
-//     left: 1419px;
-//     z-index: 2;
-// }
-
-// .ellipseUi {
-//     position: absolute;
-//     top: 33px;
-//     left: 29px;
-
-// }
-
-
-
-// .ellipse2 {
-//     position: absolute;
-//     top: 244px;
-//     left: 1021px;
-//     z-index: 2;
-// }
-
-// .ellipse_ {
-//     position: absolute;
-//     top: 27px;
-//     left: 28px;
-// }
-
-// .ellipse3 {
-//     position: absolute;
-//     top: 410px;
-//     left: 945px;
-//     z-index: 2;
-
-// }
-
-// .ellipseUx {
-//     position: absolute;
-//     top: 31px;
-//     left: 21px;
-// }
-
-// .ellipse4 {
-//     position: absolute;
-//     top: 590px;
-//     left: 976px;
-//     z-index: 2;
-// }
-
-// .ellipsePs {
-//     position: absolute;
-//     top: 31px;
-//     left: 24px;
-// }
-
-
 
 
 
