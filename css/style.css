@@ -786,6 +786,12 @@ span {
     display: none;
   }
 }
+@media (max-width: 1560px) {
+  .about-ellipse1 {
+    top: -85px;
+    left: -553px;
+  }
+}
 
 .about-ellipse2 {
   position: absolute;
