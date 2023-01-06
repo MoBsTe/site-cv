@@ -370,6 +370,21 @@ body {
   }
 }
 
+@media (min-width: 360px) and (max-width: 480px) {
+  .hdimg {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .hdimg {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+  }
+}
+
 .header-skills {
   display: flex;
   justify-content: space-evenly;
@@ -390,8 +405,15 @@ body {
   }
 }
 
+@media (max-width: 360px) {
+  .skills-img {
+    width: 20px;
+  }
+}
+
 .skills-div {
   display: flex;
+  margin: 10px;
   padding: 30px;
   background-color: #E2A100;
   border-radius: 50%;

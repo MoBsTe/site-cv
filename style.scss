@@ -443,6 +443,22 @@ body {
 
 }
 
+.hdimg {
+
+    @media (min-width:360px) and (max-width:480px) {
+        width: 300px;
+        height: 300px;
+        padding-top: 20px;
+    }
+
+    @media (min-width:481px) and (max-width:1024px) {
+        width: 300px;
+        height: 300px;
+        padding-top: 20px;
+    }
+
+}
+
 
 
 
@@ -479,9 +495,17 @@ body {
 }
 
 
+.skills-img {
+    @media (max-width:360px) {
+        width: 20px;
+
+    }
+}
+
+
 .skills-div {
     display: flex;
-
+    margin: 10px;
     padding: 30px;
     background-color: #E2A100;
     border-radius: 50%;
