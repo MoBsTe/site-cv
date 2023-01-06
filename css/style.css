@@ -7,6 +7,7 @@
 body {
   background-color: #333;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -177,10 +178,26 @@ body {
   border-bottom: 1px solid rgb(231, 143, 11);
 }
 
-.header-section {
+.header-section-r {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+@media (max-width: 480px) {
+  .header-section-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 481px) and (max-width: 970px) {
+  .header-section-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .deckrtiption {
@@ -357,6 +374,20 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+@media (max-width: 480px) {
+  .header-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .header-skills {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .skills-div {

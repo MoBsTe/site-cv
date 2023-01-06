@@ -6,8 +6,8 @@
 
 body {
     background-color: #333;
-
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 
@@ -204,18 +204,31 @@ body {
 
 
 
-.header-section {
+.header-section-r {
     display: flex;
     justify-content: space-evenly;
-    // align-items: center;
+    align-items: center;
 
     @media (max-width:480px) {
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
+
     }
+
+
+    @media (min-width:481px) and (max-width:970px) {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
 
 }
 
@@ -440,13 +453,13 @@ body {
     justify-content: space-evenly;
     align-items: center;
 
-    @media (max-width:360px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    // @media (max-width:360px) {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     flex-direction: column;
 
-    }
+    // }
 
     @media (max-width:480px) {
         display: flex;
